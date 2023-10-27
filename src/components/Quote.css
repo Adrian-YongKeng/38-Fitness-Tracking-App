@@ -1,0 +1,48 @@
+.work .image-container {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .work img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+  }
+  
+  .work .layer {
+    width:315px;
+    height: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgb(102, 100, 100));
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    transition: height 0.5s;
+  }
+  
+  .work .layer h3 {
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  
+  .work:hover img {
+    transform: scale(1.1);
+  }
+  
+  .work:hover .layer {
+    height: 100%;
+    transform: translateY(0); /* Reset translateY for the layer */
+  }
+  
