@@ -29,7 +29,7 @@ const imageData = [
     quote: "Do not pray for an easy life; pray for the strength to endure a difficult one."
   },
   {
-    imageSrc: 'https://b2632718.smushcdn.com/2632718/wp-content/uploads/2023/01/mike-tyson-belts.jpg?lossy=1&strip=1&webp=1',
+    imageSrc: './src/miketyson.jpg',
     subtitle: 'Mike Tyson',
     quote: "The more I train, the more I realize I have more speed in me.",
   },
